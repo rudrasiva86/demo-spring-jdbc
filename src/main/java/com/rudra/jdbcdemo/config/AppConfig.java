@@ -1,4 +1,4 @@
-package com.rudrasiva86.jdbcdemo.config;
+package com.rudra.jdbcdemo.config;
 
 import javax.sql.DataSource;
 
@@ -12,7 +12,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 @Configuration
-@ComponentScan("com.rudrasiva86.jdbcdemo")
+@ComponentScan("com.rudra.jdbcdemo")
 @PropertySource("classpath:database.properties")
 public class AppConfig {
 	

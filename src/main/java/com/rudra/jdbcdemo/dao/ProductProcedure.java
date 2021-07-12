@@ -1,4 +1,4 @@
-package com.rudrasiva86.jdbcdemo.dao;
+package com.rudra.jdbcdemo.dao;
 
 import java.sql.Types;
 import java.util.Map;
@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.SqlOutParameter;
 import org.springframework.jdbc.core.SqlParameter;
 import org.springframework.jdbc.object.StoredProcedure;
 
-import com.rudrasiva86.jdbcdemo.model.Product;
+import com.rudra.jdbcdemo.model.Product;
 
 public class ProductProcedure extends StoredProcedure {
 	public ProductProcedure(DataSource dataSource, String procedureName) {
